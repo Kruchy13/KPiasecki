@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="custom-style.css" />
+
+    <script src="leaflet/leaflet-src.js"></script>
+    <script src="leaflet/leaflet-providers.js"></script>
+    <script src="leaflet/leaflet-image.js"></script>
+
+    <title>Canvas</title>
+  </head>
+  <body>
+    <div id="pageContainer">
+      <h1 id="pageHeader">Współrzędne:</h1>
+
+      <h2>Puzzle Game</h2>
+
+      <div id="maps">
+        <div id="map"></div>
+        <canvas id="savedMap"></canvas>
+      </div>
+
+      <div id="buttonContainer">
+        <button id="getLocation">Moja lokalizacja</button>
+        <button id="saveButton">Pobierz mapę</button>
+      </div>
+
+      <div id="tables">
+        <div id="table1"></div>
+        
+        <div id="table2"></div>
+      </div>
+    </div>
+    <button id="checkButton">Sprawdź</button>
+    <script src="index.js"></script>
+  </body>
+</html>
