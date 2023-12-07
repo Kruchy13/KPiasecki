@@ -1,0 +1,13 @@
+# Visual Studio Code
+.vscode/
+
+# PDF
+*.pdf
+
+# Microsoft Word
+*.doc
+*.docx
+*.dot
+*.dotx
+*.rtf
+~$* # Ignoruje tymczasowe pliki Worda
